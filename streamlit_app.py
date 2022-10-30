@@ -44,6 +44,8 @@ markdown = """
 """
 
 st.markdown(markdown)
+![](https://github.com/drmz2022/katu-locust/blob/main/result_imgs/Main_models_result.jpg)
+![](https://github.com/drmz2022/katu-locust/blob/main/result_imgs/phytosafety_zone.jpg)
 
 m = leafmap.Map(minimap_control=True, center=[54.177862,69.536348],
     zoom=12)
