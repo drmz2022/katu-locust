@@ -44,8 +44,8 @@ markdown = """
 """
 
 st.markdown(markdown)
-image1 = Image.open('./result_imgs/Main_models_result.jpg')
-st.image(image, caption='')
+image = 'result_imgsMain_models_result.jpg'
+st.image(image,caption="сельскохозяйственные индексы")
 
 m = leafmap.Map(minimap_control=True, center=[54.177862,69.536348],
     zoom=12)
